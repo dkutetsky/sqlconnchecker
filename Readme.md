@@ -1,5 +1,6 @@
 # Simple Sql Connection Checker
 ### Simplest tool to check connectivity to MS SQL Server instance.
+[![Docker Pulls](https://img.shields.io/docker/pulls/dmitrydoc/sqleconnchecker.svg)](https://hub.docker.com/r/dmitrydoc/sqleconnchecker/) [![Docker Automated build](https://img.shields.io/docker/automated/dmitrydoc/sqleconnchecker.svg)](https://hub.docker.com/r/dmitrydoc/sqleconnchecker/) [![Docker Build Status](https://img.shields.io/docker/build/dmitrydoc/sqleconnchecker.svg)](https://hub.docker.com/r/dmitrydoc/sqleconnchecker/)
 
 Constantly checks connectivity to SQL Server each minute and writes OK/NOT OK in the output or file.  
 Built on .net core, so could be run on win / linux / mac.
