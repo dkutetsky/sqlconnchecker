@@ -29,7 +29,7 @@ dotnet publish -c Release -r linux-x64
 # Docker
 ## How to run
 ```
-docker run -v /opt:/opt sqlchecker 
+docker run -v /opt:/opt dmitrydoc/sqleconnchecker 
 	--ConnectionString="connection string" 
 	--CheckIntervalMs=1000 
 	--VerboseOutput=true 
