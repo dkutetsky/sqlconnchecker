@@ -4,7 +4,7 @@ WORKDIR /app
 # Copy everything and build
 COPY ./src ./
 RUN dotnet restore 
-RUN dotnet publish -c Release -r linux-x64 -o out --self-contained true
+RUN dotnet publish -c Release -r linux-x64 -o out
 
 # Build runtime image
 FROM microsoft/dotnet:2.2-runtime
